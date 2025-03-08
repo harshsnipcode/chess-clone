@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const socket = io();
+    const socket = io("https://chess-clone-sn7c.onrender.com");
     const chess = new Chess();
     const boardElement = document.querySelector(".chessboard");
 
